@@ -152,9 +152,10 @@ table {
     margin: 0 auto;
 }
 
-.logo {
+
+/* .logo {
     float: left;
-}
+} */
 
 .logo h1 a {
     font-family: 'Open Sans', sans-serif;
