@@ -218,9 +218,9 @@ table {
 .small-text {
     width: 80%;
     margin: 0 auto;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 32px;
 }
 
 .small-text a {
