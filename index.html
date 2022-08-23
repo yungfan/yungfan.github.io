@@ -187,15 +187,15 @@
     <article class="col-12 col-md-12 mx-auto index-info">
       <h1 class="index-header">
         
-        <a href="/2022/06/30/Xcode%2014%E4%B8%8EiOS%2016%E6%96%B0%E7%89%B9%E6%80%A7/" target="_self">
-          Xcode 14与iOS 16新特性
+        <a href="/2022/04/21/Swift%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E5%BB%BA%E8%AE%AE/" target="_self">
+          Swift最佳实践建议
         </a>
       </h1>
 
       
-      <a class="index-excerpt index-excerpt__noimg" href="/2022/06/30/Xcode%2014%E4%B8%8EiOS%2016%E6%96%B0%E7%89%B9%E6%80%A7/" target="_self">
+      <a class="index-excerpt index-excerpt__noimg" href="/2022/04/21/Swift%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E5%BB%BA%E8%AE%AE/" target="_self">
         <div>
-          Xcode 14在 2022 年 6 月的 WWDC 22 上 Apple 推出了 Xcode 14，相比较 Xcode 13，它的功能与性能都有了巨大的提升。 项目 Xcode 安装包的大小锐减，安装速度有大幅提升，因为各个平台（iOS、macOS、watchOS、tvOS）的 Components 并没有安装，第一次打开时需要动态下载安装，默认勾选安装的是 iOS 与 macOS。 创建项目时
+          1. 能用let，尽量不用var把代码里的var全改成let，只保留编译不能通过的。 2. 尽量不用！!遇到nil时会 crash（包括as!进行强制转换）。可以使用if let&#x2F;guard let&#x2F;case let配合as?来处理可选型。 3. 多使用struct和enum，少使用class4. 多用Swift标准库类型，少用对应的Foundation类型前者是 struct，后者是 class
         </div>
       </a>
 
@@ -203,8 +203,8 @@
         
           <div class="post-meta mr-3">
             <i class="iconfont icon-date"></i>
-            <time datetime="2022-06-30 07:49" pubdate>
-              2022-06-30
+            <time datetime="2022-04-21 00:03" pubdate>
+              2022-04-21
             </time>
           </div>
         
